@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">
+        Jawad <span>Alkatreeb</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+        
+      <button class="gradient-btn">Contact Me</button>
+      
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Jawad</span></h1>
+
+        <h3>
+          I'm a <span>Backend Developer</span>
+        </h3>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit
+          . Labore deserunt dolorum, dignissimos modi voluptatum unde
+           totam recusandae nam repudiandae incidunt odio magnam, fugit 
+           error quas ipsa aliquid provident. Minima, quo.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://github.com/jawadalkatreeb-05" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jawad-alkatreeb-b0973a359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+           target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="https://www.instagram.com/jawad_alkatreeb" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+963992181766" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          
+        </div>
+
+        <div class="btn-group">
+          <a href="#" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+
+        
+      </div>
+      <div class="home-img">
+        <img src="img.png" alt="">
+      </div>
+    </section>
+    
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Quasi fugit fugiat velit veritatis! Voluptatibus neque, consequuntur
+           natus incidunt mollitia ab repellendus corrupti obcaecati sint debitis vero
+           , quam rerum et. Commodi sint ani qwrwqrr eqre rff r44ta dvbe 
+          mi assumenda odit dolorum quasi delectus odio magni eligendi.</p>
+          <a href="#" class="btn">Read More</a>
+      </div>
+
+    </section>
+
+    <section class="services" id="services">
+
+
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        
+        <div class="service-box">
+            <div class="service-info">
+              <i class="fas fa-server fa-3x"></i>
+              <h4>Backend Development</h4>
+              <p>Design and implement RESTful APIs using <b>ASP.NET Core</b>. <br>
+                I specialize in securing systems with <b>JWT</b> and migrating complex business logic to modern architectures.
+              </p>
+            </div> 
+        </div>
+        <div class="service-box">
+            <div class="service-info">
+              <i class="fas fa-database fa-3x "></i>
+              <h4>Database Solutions</h4>
+              <p>
+                Architecting efficient <b>SQL Server</b> schemas. <br>
+        Using <b>EF Core</b> and <b>LINQ</b>, I ensure data integrity and high-performance queries for management systems.
+              </p>
+            </div> 
+        </div>
+        
+        <div class="service-box">
+            <div class="service-info">
+              <i class="fas fa-code fa-3x"></i>
+                <h4>Software Core</h4>
+                <p>
+                  Applying <b>OOP</b> logic from <b>C++</b> and <b>Java</b>. <br>
+        Building interactive interfaces with <b>JavaScript</b> to connect logic and UX.
+                </p>
+            </div>
+      
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <div class="project-box">
+
+        <div class="project-card">
+          
+      <!-- Inspection Api-->
+         <img src="Projects/Project1 (2).png" alt="">
+         <!-- <img src="Projects/Project1_2.png" alt=""> -->
+          
+         <h3>Full CRUD Inspection Management API</h3>
+          
+         <p>
+           <b>Core Functionality:</b> Developed a robust RESTful API to manage industrial or commercial inspections, enabling full CRUD operations for inspection records and categories.
+            <br>
+           <b>Technology Stack:</b> Built with ASP.NET Core and C#, utilizing Entity Framework Core for seamless database communication and SQL Server for structured data storage.
+            <br>
+           <b>Documentation:</b> Integrated Swagger (OpenAPI) as shown in the project to provide an interactive environment for testing endpoints and ensuring clear documentation for frontend integration.
+            <br>
+           <!-- <b>Data Handling:</b> Implemented efficient data retrieval patterns using LINQ, ensuring clean JSON responses as demonstrated in the server response body in the project. -->
+         </p>
+
+         <div class="btn">Review Project</div>
+
+        </div>
+
+        <div class="project-card">
+
+          <!-- C# IDM -->
+          <img src="Projects/Project_2.png" alt="">
+          
+          <h3>AI-Powered Multimedia Downloader</h3>
+          
+          <p>
+            <b>Core Logic:</b> A high-performance desktop application built with C# and WPF designed for seamless video and audio extraction from various platforms.
+              <br>
+            <b>AI Integration:</b> Leverages AI-driven algorithms to optimize link parsing, metadata retrieval, and media quality selection.
+              <br>
+            <!-- <b>UI/UX Design:</b> Features a modern, user-friendly interface with custom styling, supporting high-resolution downloads (up to 1080p) and multiple formats like MP4 and WebM. -->
+
+            <b>Key Features:</b> Automated information fetching, progress tracking, and an intuitive selection system for video/audio quality.
+          </p>
+
+        <div class="btn">Review Project</div>
+
+        </div>
+
+        <div class="project-card">
+        <!-- Product Management System -->
+        <img src="Projects/Project_3.png" alt="">
+        
+          <h3>Product Management System</h3>
+        
+              <p>
+                <b>Core Logic:</b> A pure JavaScript application designed to handle full CRUD operations (Create, Read, Update, Delete) for product data directly in the browser.
+              <br>
+                <b>Dynamic Features:</b> Implemented real-time price calculations (including taxes, ads, and discounts) and an instant search functionality by title or category.
+              <br>
+                <b>Data Management:</b> Developed a system to manage product lists efficiently, including bulk actions like "Delete All" and individual record updates as shown in Project_3.png.
+              <br>
+                <b>Skills Demonstrated:</b> Mastery of DOM manipulation, event handling, and logical data processing without the need for external frameworks.
+              </p>
+
+             <div class="btn">Review Project</div>
+          </div>
+
+          <div class="project-card">
+        <!-- Trips API -->
+             <img src="Projects/Project5.png" alt="">
+
+             <h3>Trip Planner Management System</h3>
+
+             <p>
+               <b>Web Application Architecture:</b> Built a dynamic web application using ASP.NET Core.
+                <br>
+               <b>Data Presentation:</b> Designed a clean, table-based interface to display trip destinations, accommodation details, and activities.
+                <br>
+               <b>Core Functionality:</b> Implemented the logic to add, store, and list travel data, focusing on handling date formats and relational data within the .NET ecosystem.
+             </p>
+           
+             <div class="btn">Review Project</div>
+          </div>
+          <!-- UI -->
+          <div class="project-card">
+              <img src="Projects/prj6.png" alt="">
+
+              <h3>Cinema Landing Page UI</h3>
+              
+                <p>A simple web interface designed to practice layout structure, navigation menus,
+                 and call-to-action elements.
+                </p>
+            
+              <div class="btn">Review Project</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="heading">
+          Contact <span>Me</span>
+        </h2>
+
+        <form id="contactForm">
+          <div class="input-group">  
+            <div class="input-box">
+              <input type="text" id="fullname" name="name" placeholder="Full Name" required>
+              <input type="email" id="email" name="email" placeholder="Email" required>       
+            </div>
+            <div class="input-box">
+              <input type="number" id="phonenumber" name="phone" placeholder="Phone Number">   
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>           
+            </div>
+          </div>
+          <div class="input-group-2">
+            <textarea name="message" id="message" placeholder="Your Message"
+            cols="30" rows="10" required></textarea>
+            <button type="submit" value="Send Message" class="btn">Send Message</button>         
+          </div>     
+        </form>
+
+      </section>
+
+      <footer class="footer">
+        <div class="social-icons">
+          <a href="https://github.com/jawadalkatreeb-05" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jawad-alkatreeb-b0973a359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+           target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a href="https://www.instagram.com/jawad_alkatreeb" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/+963992181766" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div> 
+
+        <ul class="list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <p class="copyright">
+          <a href="mailto:jawadalkatreeb@gmail.com">jawadalkatreeb@gmail.com</a>
+          <br>
+          © Jawad Alkatreeb | All Rights Reserved
+        </p>
+      </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
