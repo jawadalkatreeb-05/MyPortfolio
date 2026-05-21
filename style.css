@@ -124,7 +124,7 @@ section{
 
 }
 .home-content p{
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.8;
 }
@@ -217,6 +217,8 @@ section{
 }
 .about-content p{
   font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.9;
 }
 .about-content .btn{
   margin: 3rem 0;
